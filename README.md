@@ -80,7 +80,7 @@ It appears over windowed and borderless games. Windows does not allow overlays o
 <details>
 <summary><b>Is it safe to use in games with anti-cheat?</b></summary>
 <br>
-MuteFlow never touches game processes. It does not inject code, read memory or send input; it only changes volume through the Windows audio mixer. It does use a global keyboard hook to detect your hotkey, the same mechanism many utilities use. Anti-cheat systems are strict and make their own decisions, so no one can guarantee it, and you use it at your own risk.
+MuteFlow never touches game processes. It does not inject code, read memory or send input; it only changes volume through the Windows audio mixer. Your hotkey is detected through Windows' Raw Input, with no keyboard hook. MuteFlow only reacts to your one hotkey, never stores or sends other key presses, and does not block the key, so your game still receives it. Anti-cheat systems are strict and make their own decisions, so no one can guarantee it, and you use it at your own risk.
 </details>
 
 <details>
